@@ -10,7 +10,7 @@ const ServicesSection =()=> {
 
            <div className="flex flex-wrap lg:flex-nowrap justify-start items-stretch gap-[23.91px]">
                 <div className="flex flex-col justify-start flex-1 min-h-[200px] gap-[8.54px] py-[17px] px-[21px] border border-[#D4D4D4] rounded-lg cursor-pointer">
-                    <img src={productDesignLogo} alt="Product Design logo" className="w-[62px] h-[62px]"/>
+                    <img src={productDesignLogo} alt="Product Design" className="w-[62px] h-[62px]"/>
                     <div className="flex flex-col justify-start gap-[12.81px]">
                         <p className="text-[#0A2540] text-[25px] font-normal">Product Design</p>
                         <p className="text-[#68737B] text-base font-normal leading-[26.47px]">We craft intuitive, user-focused designs that bring your ideas to life. From wireframes to polished interfaces, we ensure every detail enhances the user experience.</p>

@@ -7,7 +7,7 @@ const Footer =()=> {
         <section className="flex justify-center bg-white px-[80px] py-[56px]">
             <div className="bg-[#0A2540] flex flex-row justify-between p-16 rounded-[20px] gap-16 ">
                 <div className="flex flex-col justify-start gap-6 w-1/3">
-                    <img src={dasLogo} alt="Das Logo"/>
+                    <img src={dasLogo} alt="Das"/>
                     <p className="font-normal text-[14px] text-white" > Building digital excellence for forward-thinking businesses.
                     </p>
                     <div className="flex flex-row gap-3">

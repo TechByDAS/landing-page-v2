@@ -36,7 +36,7 @@ const CaseStudySection =()=> {
                 <div className="min-w-[300px] h-[200px] bg-cover bg-center rounded-lg flex items-end p-4 text-white h-screen cursor-pointer" style={{ backgroundImage: `url('/assets/myQrMenuBackgroundImage.svg')` }}>
 
                     <div>
-                        <h4 className="font-bold text-xl">My QR Menu</h4>
+                        <h4 className="font-bold text-xl">My QRMenu</h4>
                         <p className="text-sm">Hospitality</p>
                     </div>
                 </div>

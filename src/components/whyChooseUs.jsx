@@ -9,7 +9,7 @@ const WhyChooseUsSection =()=> {
                 
             <div className="flex flex-row justify-center items-center gap-[51px]">
                  <div className="flex flex-col justify-center items-center gap-[18px]">
-                    <img src={fastDeliveryIcon} alt="Fast Delivery icon" className="self-center" />
+                    <img src={fastDeliveryIcon} alt="Fast Delivery" className="self-center" />
                     <p className="text-[25px] text-[#0A2540] font-semibold">Fast Delivery</p>
                      <p className="text-[18px] text-[#0A2540] font-normal text-center">Quick turnaround without compromise</p>
                 </div>

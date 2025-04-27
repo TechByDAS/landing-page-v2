@@ -4,7 +4,7 @@ const Navbar =()=> {
     return (
         <nav className="bg-[#0A2540] flex flex-row justify-between items-center py-[22px] px-[80px] text-sm">
            <div className="flex items-center">
-            <img src={dasTechLogo} alt="das logo" className="cursor-pointer"/>
+                <img src={dasTechLogo} alt="das logo" className="cursor-pointer"/>
            </div>
 
             <ul className="hidden lg:flex gap-[56px]">

@@ -26,7 +26,7 @@ const ServicesSection =()=> {
                 </div>
 
                 <div className="flex flex-col justify-start  flex-1 min-h-[200px] gap-[8.54px] py-[17px] px-[21px] border border-[#D4D4D4] rounded-lg cursor-pointer">
-                    <img src={teamAugLogo} alt="Team Augmentation logo" className="w-[62px] h-[62px]"/>
+                    <img src={teamAugLogo} alt="Team Augmentation" className="w-[62px] h-[62px]"/>
                     <div className="flex flex-col justify-start gap-[12.81px]">
                         <p className="text-[#0A2540] text-[25px] font-normal">Team Augmentation</p>
                         <p className="text-[#68737B] text-base font-normal leading-[26.47px]">Scale your development or design team effortlessly with our expert talent. Whether you're facing tight deadlines, or want to accelerate your product roadmap.</p>

@@ -7,7 +7,7 @@ const Navbar =()=> {
                 <img src={dasTechLogo} alt="das logo" className="cursor-pointer"/>
            </div>
 
-            <ul className="hidden lg:flex gap-[56px]">
+            <ul className="hidden lg:flex gap-[58px]">
                 <li>
                     <a href="#services" className="text-white text-[18px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Services</a>
                 </li>

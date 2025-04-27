@@ -15,13 +15,13 @@ const WhyChooseUsSection =()=> {
                 </div>
 
                 <div className="flex flex-col justify-center items-center gap-[18px]">
-                    <img src={scalableTeamIcon} alt="Fast Delivery icon" className="self-center" />
+                    <img src={scalableTeamIcon} alt="Scalable Team Icon" className="self-center" />
                     <p className="text-[25px] text-[#0A2540] font-semibold">Scalable Team</p>
                      <p className="text-[18px] text-[#0A2540] font-normal text-center">Flexible team scaling based on your needs.</p>
                 </div>
 
                 <div className="flex flex-col justify-center items-center gap-[18px]">
-                    <img src={supportIcon} alt="Fast Delivery icon" className="self-center" />
+                    <img src={supportIcon} alt="Support icon" className="self-center" />
                     <p className="text-[25px] text-[#0A2540] font-semibold">Long Term Support</p>
                      <p className="text-[18px] text-[#0A2540] font-normal text-center">Dedicated Support and Maintenance</p>
                 </div>

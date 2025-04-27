@@ -12,7 +12,7 @@ const ContactSection =()=> {
                         placeholder="Enter Your Name"
                         className="p-3 rounded-md border border-gray-400"
                     />
-                    <label htmlFor="name" className="text-lg mb-2 text-[#0A2540]">Email</label>
+                    <label htmlFor="email" className="text-lg mb-2 text-[#0A2540]">Email</label>
                     <input
                         id="email"
                         type="email"

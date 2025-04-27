@@ -14,7 +14,7 @@ const ChatBubble = () => {
           onClick={scrollToContact}
           className="bg-[#1E9AF1] p-2 rounded-full shadow-md cursor-pointer hover:bg-blue-600 transition"
         >
-          <img src={chatBubbleIcon} alt="Chat icon" className="w-[50px] h-[50px]" />
+          <img src={chatBubbleIcon} alt="Chat Icon" className="w-[50px] h-[50px]" />
         </button>
       </div>
     );

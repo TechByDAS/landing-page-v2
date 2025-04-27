@@ -18,22 +18,45 @@ const Footer =()=> {
                     </div>
                 </div>
 
-                <div className="flex flex-row justify-start align-start gap-12 w-2/3">
-                    <div className="flex flex-col justify-start gap-4">
-                        <p className="text-base text-[#FFB81C] font-semibold">Service</p>
-                        <p className="text-white text-{14px] font-normal">Product Design</p>
-                        <p className="text-white text-{14px] font-normal">Mobile Development</p>
-                        <p className="text-white text-{14px] font-normal">Web development</p>
-                        <p className="text-white text-{14px] font-normal">Team Augmentation</p>
-                    </div>
+               
 
-                    <div className="flex flex-col justify-start gap-4">
-                        <p className="text-base text-[#FFB81C] font-semibold">Company</p>
-                        <p className="text-white text-{14px] font-normal">About Us</p>
-                        <p className="text-white text-{14px] font-normal">Case Study</p>
-                        <p className="text-white text-{14px] font-normal">Careers</p>
-                        <p className="text-white text-{14px] font-normal">Contact</p>
-                    </div>
+                <div className="flex flex-row justify-start align-start gap-12 w-2/3">
+                    <ul className="flex flex-col justify-start gap-4">
+                        <li>
+                            <a href="#services" className="text-base font-semibold text-[#FFB81C] ">Services</a>
+                        </li>
+                        <li>
+                            <a href="#productDesign" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Product Design</a>
+                        </li>
+                        <li>
+                            <a href="#mobileDev" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Mobile Development</a>
+                        </li>
+                        <li>
+                            <a href="#webDev" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Web Development</a>
+                        </li>
+                        <li>
+                            <a href="#teamAugmentation" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Team Augmentation</a>
+                        </li>
+
+                    </ul>
+
+                    <ul className="flex flex-col justify-start gap-4">
+                        <li>
+                            <a href="#company" className="text-base font-semibold text-[#FFB81C] ">Company</a>
+                        </li>
+                        <li>
+                            <a href="#whyDas" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#caseStudies" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Case Study</a>
+                        </li>
+                        <li>
+                            <a href="#careers" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#contact" className="text-white text-[14px] font-normal cursor-pointer hover:text-[#FFB81C] transition-all duration-200 ">Contact</a>
+                        </li>
+                    </ul>
 
                     <div className="flex flex-col gap-4">
                         <p className="text-base text-[#FFB81C] font-semibold">Newsletter</p>

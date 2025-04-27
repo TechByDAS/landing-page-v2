@@ -1,4 +1,4 @@
-import tobiShoksAvatar from '../assets/tobiAvatar.svg';
+import tobiShokzAvatar from '../assets/tobiAvatar.svg';
 import sarahJohnsonAvatar from '../assets/sarahJohnsonAvatar.svg';
 import michChenAvatar from '../assets/michChenAvatar.svg';
 const Testimonials =()=> {
@@ -8,7 +8,7 @@ const Testimonials =()=> {
             <div className="flex flex-row justify-center items-center gap-[69px]">
                 <div className="flex flex-col justify-start items-start bg-[#0A2540] p-4 rounded-[32px] gap-[20px]">
                     <div className="flex flex-row justify-start gap-[16px]">
-                        <img src={tobiShoksAvatar} alt="Avatar"/>
+                        <img src={tobiShokzAvatar} alt="Avatar"/>
                         <div className="flex flex-col gap-[7px]">
                             <p className="font-normal text-white text-[18px] leading-[18px]">TOBI SHOKZ</p>
                             <p className="font-normal text-[#FFB81C] text-[12px] leading-[18px]">CEO, QRMENU</p>

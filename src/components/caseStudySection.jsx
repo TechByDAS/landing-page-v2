@@ -27,7 +27,7 @@ const CaseStudySection =()=> {
 
     return (
         <section id="caseStudies" className="bg-[#0A2450] flex flex-col justify-between items-center px-[80px] py-[50px] gap-[50px]">
-            <div className="flex flex-col justify-center items-center gap-[24px]">
+            <div className="flex flex-col justify-center items-center gap-6">
                 <h3 className="text-white text-[48px] leading-[62.38px] font-semibold">Featured Case Study</h3>
                 <p className="text-white text-[18px] leading-[28.79px] font-normal">Explore our various case studies</p>
             </div>

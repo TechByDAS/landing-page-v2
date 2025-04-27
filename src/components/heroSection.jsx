@@ -3,7 +3,7 @@ import heroImage from '../assets/dasHeroImage.svg'
 const HeroSection =()=> {
     return (
         <section className="bg-[#D5E4FE40] flex justify-between items-center py-[102px] px-[80px]">
-            <div className="flex flex-col justify-start items-center gap-[10px] w-1/2">
+            <div className="flex flex-col justify-start items-center gap-6 w-1/2">
                 <div className="flex flex-col gap-[20px]">
                     <p className="text-base font-normal text-[#0A2540CC]">Your Partner in Innovation & Growth.</p>
                     <h1 className="font-semibold text-[#0A2540] text-[70px] leading-[63.53px]">
@@ -27,7 +27,7 @@ const HeroSection =()=> {
                 </div>
             </div>
 
-            <img src={heroImage} alt="Das Hero Image" className="w-1/2"/>
+            <img src={heroImage} alt="Das Hero" className="w-1/2"/>
         </section>
     )
 }

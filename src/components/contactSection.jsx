@@ -5,7 +5,7 @@ const ContactSection =()=> {
                 <h3 className="text-[48px] font-semibold mb-4">Collaborate with Us to Build Something Great</h3>
                 
                 <form className="flex flex-col gap-4 w-full max-w-md bg-white p-10 rounded-[20px]">
-                    <label htmlFor="name" className="text-lg text-[#0A2540] mb-2">Full Name</label>
+                    <label htmlFor="name" className="text-lg text-[#0A2540] mb-2">FullName</label>
                     <input
                         id="name"
                         type="text"

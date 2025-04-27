@@ -7,7 +7,7 @@ const HeroSection =()=> {
                 <div className="flex flex-col gap-[20px]">
                     <p className="text-base font-normal text-[#0A2540CC]">Your Partner in Innovation & Growth.</p>
                     <h1 className="font-semibold text-[#0A2540] text-[70px] leading-[63.53px]">
-                        Fueling Innovation, Scaling Success.
+                        Fueling Innovation, Scaling Success
                     </h1>
                     <p className="font-normal text-[#0A2540CC] text-[18.96px] leading-[28.45px]">Your trusted ally in product design and development empowering you with smarter products, agile teams, and accelerated growth.</p>
                 </div>

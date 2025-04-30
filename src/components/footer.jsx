@@ -13,6 +13,12 @@ const Footer = () => {
           <p className="font-normal text-[14px]">
             We help startups and growing businesses launch, scale, and thrive through smart design, seamless development, and expert support.
           </p>
+          <p className="text-[14px] font-normal">
+            <span className="text-[#FFB81C]">Email:</span>{' '}
+            <a href="mailto:hello@dastech.org.uk" className="underline hover:text-[#FFB81C]">
+              hello@dastech.org.uk
+            </a>
+          </p>
           <div className="flex flex-row gap-3">
             <img src={githubLogo} alt="Github" className="w-8 h-8 cursor-pointer" />
             <img src={twitterLogo} alt="Twitter" className="w-8 h-8 cursor-pointer" />

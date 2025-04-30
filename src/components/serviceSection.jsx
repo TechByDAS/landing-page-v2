@@ -18,22 +18,22 @@ const ServicesSection = () => {
           {
             logo: productDesignLogo,
             title: 'Product Design',
-            desc: 'We craft intuitive, user-focused designs that bring your ideas to life. From wireframes to polished interfaces, we ensure every detail enhances the user experience.',
+            desc: 'We transform ideas into clean, user-centered designs that enhance usability, engagement, and delight — from initial wireframes to final interfaces.',
           },
           {
             logo: webDevLogo,
             title: 'Web Development',
-            desc: 'We create fast, responsive web solutions customized to your business requirements, ranging from landing pages to comprehensive platforms. Our team ensures peak performance.',
+            desc: 'We build modern, fast, and scalable websites tailored to your business needs — from landing pages to complex web applications.',
           },
           {
             logo: teamAugLogo,
             title: 'Team Augmentation',
-            desc: 'Scale your development or design team effortlessly with our expert talent. Whether you’re facing tight deadlines or want to accelerate your product roadmap.',
+            desc: 'Hire vetted developers, designers, and marketers on demand to accelerate delivery and scale without the recruitment overhead.',
           },
           {
             logo: productStrategyLogo,
             title: 'Product Strategy',
-            desc: 'We sharpen your product vision and develop a clear roadmap, leveraging market trends, user insights, and business goals to drive growth and ensure long-term success.',
+            desc: 'We help you define, validate, and prioritize features with a clear roadmap built on user needs, technical feasibility, and business goals.',
           },
         ].map((service, idx) => (
           <div

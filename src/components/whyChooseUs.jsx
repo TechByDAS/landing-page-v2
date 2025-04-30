@@ -17,17 +17,17 @@ const WhyChooseUsSection = () => {
           {
             icon: fastDeliveryIcon,
             title: 'Fast Delivery',
-            desc: 'Quick turnaround without compromise',
+            desc: 'Go to market quicker with agile execution that balances speed and quality — no bottlenecks, no delays.',
           },
           {
             icon: scalableTeamIcon,
             title: 'Scalable Team',
-            desc: 'Flexible team scaling based on your needs.',
+            desc: 'Easily extend your team with vetted developers, designers, and marketers — when and how you need them.',
           },
           {
             icon: supportIcon,
-            title: 'Long Term Support',
-            desc: 'Dedicated Support and Maintenance',
+            title: 'Long-Term Support',
+            desc: 'We don’t just ship and disappear. We provide ongoing maintenance, optimization, and growth support.',
           },
         ].map((item, idx) => (
           <div

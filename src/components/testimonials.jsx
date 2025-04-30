@@ -9,28 +9,28 @@ const Testimonials = () => {
       role: 'CEO, QRMENU',
       avatar: tobiShoksAvatar,
       quote:
-        'DAS Technology transformed our digital presence with their innovative solutions and professional approach.',
+        'We needed a fast, modern product — and DAS delivered. They felt like part of our internal team from day one.',
     },
     {
       name: 'SARAH JOHNSON',
-      role: 'PRODUCT MANAGER, FINTECH',
+      role: 'Product Manager, Fintech',
       avatar: sarahJohnsonAvatar,
       quote:
-        "The team's technical expertise and dedication to our project's success were outstanding.",
+        'DAS Technology helped us scale our web platform seamlessly while guiding design and dev decisions with confidence.',
     },
     {
       name: 'MICHAEL CHEN',
-      role: 'CTO, STARTUPX',
+      role: 'CTO, StartupX',
       avatar: michChenAvatar,
       quote:
-        'Working with DAS has been a game-changer for our development process and team productivity.',
+        'The level of support and flexibility we received was unmatched. We shipped faster and with more clarity than ever before.',
     },
   ];
 
   return (
     <section className="bg-[#F5F8FF] flex flex-col justify-center items-center px-4 md:px-10 lg:px-[80px] py-12 gap-12">
       <h3 className="font-semibold text-[#0A2540] text-[32px] sm:text-[40px] lg:text-[48px] text-center">
-        Clients Testimonials
+        What Our Clients Say
       </h3>
 
       <div className="flex flex-wrap justify-center gap-6 w-full">
@@ -43,7 +43,7 @@ const Testimonials = () => {
               <img src={t.avatar} alt={`${t.name} Avatar`} className="w-12 h-12 object-contain" />
               <div className="flex flex-col gap-1">
                 <p className="text-white text-base font-medium">{t.name}</p>
-                <p className="text-[#FFB81C] text-xs">{t.role}</p>
+                <p className="text-[#FFB81C] text-xs uppercase">{t.role}</p>
               </div>
             </div>
             <p className="text-white text-sm leading-relaxed">"{t.quote}"</p>

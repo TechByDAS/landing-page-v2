@@ -1,29 +1,15 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 import rightArrow from '../assets/chevron-right.svg';
 import leftArrow from '../assets/chevron-left.svg';
 const CaseStudySection =()=> {
-    const scrollRef = useRef(null);
-    const [scrollPercent, setScrollPercent] = useState(0);
+    const scrollRef = useRef(null); 
 
     const scroll = (direction) => {
     const container = scrollRef.current;
     const scrollAmount = 300;
     container.scrollBy({ left: direction === "right" ? scrollAmount : -scrollAmount, behavior: "smooth" });
   };
-
-    const updateScrollProgress = () => {
-    const container = scrollRef.current;
-    const totalScroll = container.scrollWidth - container.clientWidth;
-    const scrollPosition = container.scrollLeft;
-    const progress = (scrollPosition / totalScroll) * 100;
-    setScrollPercent(progress);
-  };
-
-    useEffect(() => {
-    const container = scrollRef.current;
-    container.addEventListener("scroll", updateScrollProgress);
-    return () => container.removeEventListener("scroll", updateScrollProgress);
-  }, []);
+ 
 
     return (
         <section id="caseStudies" className="bg-[#0A2450] flex flex-col justify-between items-center px-[80px] py-[50px] gap-[50px]">

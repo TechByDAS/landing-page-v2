@@ -2,6 +2,7 @@ import productDesignLogo from '../assets/productDesignServiceLogo.svg';
 import webDevLogo from '../assets/webDevServiceLogo.svg';
 import teamAugLogo from '../assets/teamAugmentationLogo.svg';
 import productStrategyLogo from '../assets/productStrategyLogo.svg';
+// You can later replace logo for email setup with a custom one
 
 const ServicesSection = () => {
   return (
@@ -13,7 +14,7 @@ const ServicesSection = () => {
         Core Services
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center">
         {[
           {
             logo: productDesignLogo,
@@ -34,6 +35,11 @@ const ServicesSection = () => {
             logo: productStrategyLogo,
             title: 'Product Strategy',
             desc: 'We help you define, validate, and prioritize features with a clear roadmap built on user needs, technical feasibility, and business goals.',
+          },
+          {
+            logo: productStrategyLogo, // Replace this with a dedicated email icon if you add it
+            title: 'Professional Email Setup',
+            desc: 'Get a branded email (like you@yourcompany.com) set up for life — no monthly fees, just a one-time setup and you’re good to go.',
           },
         ].map((service, idx) => (
           <div

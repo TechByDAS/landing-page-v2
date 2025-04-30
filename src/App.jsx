@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 import HeroSection from './components/heroSection';
 import ServicesSection from './components/serviceSection';
 import CaseStudySection from './components/caseStudySection';
-import ChatBubble from './components/chatBubble';
+// import ChatBubble from './components/chatBubble';
 import WhyChooseUsSection from './components/whyChooseUs';
 import Testimonials from './components/testimonials';
 import Clients from './components/clients';
@@ -23,7 +23,7 @@ const App =()=> {
       <Clients/>
       <ContactSection/>
       <Footer/>
-      <ChatBubble/>
+      {/* <ChatBubble/> */}
     </div>
     </>
   );

@@ -1,20 +1,19 @@
-import googleLogo from '../assets/googleLogo.svg';
-import appleLogo from '../assets/appleLogo.svg';
-import figmaLogo from '../assets/figmaLogo.svg';
-import githubLogo from '../assets/githubLogo.svg';
-const Clients =()=> {
-    return (
-        <section className=" bg-white px-[80px] py-[56px] flex flex-col justify-between items-center gap-[100px]">
-            <h3 className="font-semibold text-[#0A2540] text-[48px]">Trusted By Industry Leaders</h3>
+import googleLogo from '../assets/googleLogo.svg'; 
+import qrcode from '../assets/Logo.png';  
 
-            <div className="flex flex-row justify-center gap-[250px]">
-                <img src={googleLogo} alt="Google Logo"/>
-                <img src={appleLogo} alt="Apple Logo"/>
-                <img src={figmaLogo} alt="Figma Logo"/>
-                <img src={githubLogo} alt="Github Logo"/>
-            </div>
-        </section>
-    )
-}
+const Clients = () => {
+  return (
+    <section className="bg-white px-4 md:px-10 lg:px-[80px] py-12 flex flex-col items-center gap-12">
+      <h3 className="font-semibold text-[#0A2540] text-[32px] sm:text-[40px] lg:text-[48px] text-center">
+        Trusted By Industry Leaders
+      </h3>
+
+      <div className="flex flex-wrap justify-center items-center gap-10 sm:gap-16">
+        <img src={googleLogo} alt="Google Logo" className="h-10 sm:h-12 object-contain" />
+        <img src={qrcode} alt="Apple Logo" className="h-10 sm:h-12 object-contain" />
+        </div>
+    </section>
+  );
+};
 
 export default Clients;

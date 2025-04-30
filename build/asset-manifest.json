@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9b99d6eb.css",
+    "main.js": "./static/js/main.c11da0bf.js",
+    "static/js/453.b62b1074.chunk.js": "./static/js/453.b62b1074.chunk.js",
+    "static/media/dasHeroImage.svg": "./static/media/dasHeroImage.4134769260cff21950e3fa680b398458.svg",
+    "static/media/tobiAvatar.svg": "./static/media/tobiAvatar.35f22165ed997a4d0aa99219a72a2aaf.svg",
+    "static/media/sarahJohnsonAvatar.svg": "./static/media/sarahJohnsonAvatar.d25088ec27925e1e451150f5739382b9.svg",
+    "static/media/michChenAvatar.svg": "./static/media/michChenAvatar.62a8465c586089b1790399872a5aaeb2.svg",
+    "static/media/dasTechnologyLogo.svg": "./static/media/dasTechnologyLogo.18da31d3a7b340c509b213d7ad60a104.svg",
+    "static/media/fastDeliveryLogo.svg": "./static/media/fastDeliveryLogo.518f3c06f620e6940e4ad66c64886898.svg",
+    "static/media/teamAugmentationLogo.svg": "./static/media/teamAugmentationLogo.4266b759efb8feceb12ec32612606d9b.svg",
+    "static/media/appleLogo.svg": "./static/media/appleLogo.df0de721b583a7c380bdad7574111cb9.svg",
+    "static/media/githubIcon.svg": "./static/media/githubIcon.de3121be80d4f2922584d81006fb4e89.svg",
+    "static/media/githubLogo.svg": "./static/media/githubLogo.883d632b6299dff274ed8fc71410545b.svg",
+    "static/media/googleLogo.svg": "./static/media/googleLogo.c7c63dfb00a8f991f91a29cef9e860c5.svg",
+    "static/media/productDesignServiceLogo.svg": "./static/media/productDesignServiceLogo.575de212392097e78faaa7a6d3576c41.svg",
+    "static/media/figmaLogo.svg": "./static/media/figmaLogo.4575cbecd520147d5cf074ff21a381cb.svg",
+    "static/media/productStrategyLogo.svg": "./static/media/productStrategyLogo.1fdea79b9357a64a4f9c16f7e5b97429.svg",
+    "static/media/chatBubbleIcon.svg": "./static/media/chatBubbleIcon.74f4f8d512d321c8ca56f60978ba2f27.svg",
+    "static/media/linkedinLogo.svg": "./static/media/linkedinLogo.90b097086f120a590ba2f0c73b597473.svg",
+    "static/media/webDevServiceLogo.svg": "./static/media/webDevServiceLogo.f6db43272ccd20f589be06e2547a4208.svg",
+    "static/media/supportLogo.svg": "./static/media/supportLogo.b8ae846cab09ce89e2c591288c2d8c02.svg",
+    "index.html": "./index.html",
+    "static/media/scalableTeamLogo.svg": "./static/media/scalableTeamLogo.0a6a2f21df5e99a98885a61f2a7f7f1b.svg",
+    "static/media/twitterLogo.svg": "./static/media/twitterLogo.35a773dd386a891d53769cfe26895ae8.svg",
+    "static/media/chevron-left.svg": "./static/media/chevron-left.5f91c3f62d46f8b9e64bb3f6900896a8.svg",
+    "static/media/chevron-right.svg": "./static/media/chevron-right.264dc6c38b26e2ceb92461f78a66ceed.svg",
+    "main.9b99d6eb.css.map": "./static/css/main.9b99d6eb.css.map",
+    "main.c11da0bf.js.map": "./static/js/main.c11da0bf.js.map",
+    "453.b62b1074.chunk.js.map": "./static/js/453.b62b1074.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b99d6eb.css",
+    "static/js/main.c11da0bf.js"
+  ]
+}

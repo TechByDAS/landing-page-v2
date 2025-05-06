@@ -3,7 +3,32 @@ import dasLogo from '../assets/dasTechnologyLogo.svg';
 import twitterLogo from '../assets/twitterLogo.svg';
 import linkedinLogo from '../assets/linkedinLogo.svg';
 
-const Footer = () => {
+export default function Footer() {
+  const onSubmit = async (event) => {
+      event.preventDefault();
+      const form = event.target
+      const formData = new FormData(form);
+  
+      formData.append("access_key", "a117415c-03e2-4afc-9726-c4ca8952dc76");
+  
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+  
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      }).then((res) => res.json());
+  
+      if (res.success) {
+          form.reset();
+          alert("Thank you! You have successfully subscribed to our Newsletter.");
+        }
+    };
+
   return (
     <section className="bg-white px-4 md:px-10 lg:px-[80px] py-12">
       <div className="bg-[#0A2540] w-full rounded-[20px] p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row justify-between gap-12 text-white">
@@ -49,12 +74,14 @@ const Footer = () => {
             <p className="text-white text-[14px] font-normal">
               Get insights, product updates, and exclusive offers delivered straight to your inbox.
             </p>
-            <form className="flex flex-col gap-2">
+            <form onSubmit={onSubmit} className="flex flex-col gap-2">
               <input
                 type="email"
                 placeholder="Enter your Email"
                 className="text-center p-3 rounded-md border border-gray-400 placeholder-gray-500 text-black"
               />
+              <input type="hidden" name="form_type" value="newsletter" />
+              <input type="hidden" name="subject" value="New Newsletter Signup" />
               <button
                 type="submit"
                 className="mt-2 p-3 bg-[#FFB81C] text-white rounded-md cursor-pointer"
@@ -74,4 +101,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+

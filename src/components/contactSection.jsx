@@ -1,4 +1,29 @@
-const ContactSection = () => {
+export default function ContactSection() {
+  const onSubmit = async (event) => {
+      event.preventDefault();
+      const form = event.target
+      const formData = new FormData(form);
+  
+      formData.append("access_key", "a117415c-03e2-4afc-9726-c4ca8952dc76");
+  
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+  
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      }).then((res) => res.json());
+  
+      if (res.success) {
+          form.reset();
+          alert("Thank you! Your message has been sent successfully.");
+        }
+    };
+
     return (
       <section
         id="contact"
@@ -14,16 +39,17 @@ const ContactSection = () => {
             Whether you're launching a new product, upgrading your website, or building your team — we’re here to help. Fill out the form and let’s start the conversation.
           </p>
   
-          <form className="flex flex-col gap-4 w-full max-w-md bg-white p-6 sm:p-10 rounded-[20px] shadow-lg">
+          <form onSubmit={onSubmit} className="flex flex-col gap-4 w-full max-w-md bg-white p-6 sm:p-10 rounded-[20px] shadow-lg">
             <div className="flex flex-col">
               <label htmlFor="name" className="text-lg text-[#0A2540] mb-1">
                 Full Name
               </label>
               <input
+                name="name"
                 id="name"
                 type="text"
                 placeholder="Enter Your Name"
-                className="p-3 rounded-md border border-gray-400"
+                className="p-3 rounded-md border border-gray-400 text-gray-900"
               />
             </div>
   
@@ -32,10 +58,11 @@ const ContactSection = () => {
                 Email
               </label>
               <input
+                name="email"
                 id="email"
                 type="email"
                 placeholder="Enter Your Email"
-                className="p-3 rounded-md border border-gray-400"
+                className="p-3 rounded-md border border-gray-400 text-gray-900"
               />
             </div>
   
@@ -44,10 +71,11 @@ const ContactSection = () => {
                 Company
               </label>
               <input
+                name="company"
                 id="company"
                 type="text"
                 placeholder="Enter Your Company"
-                className="p-3 rounded-md border border-gray-400"
+                className="p-3 rounded-md border border-gray-400 text-gray-900"
               />
             </div>
   
@@ -56,13 +84,15 @@ const ContactSection = () => {
                 Message
               </label>
               <textarea
+                name="message"
                 id="contactMessage"
                 placeholder="Tell us what you need help with..."
                 rows="4"
-                className="p-3 rounded-md border border-gray-400 resize-none"
+                className="p-3 rounded-md border border-gray-400 text-gray-900 resize-none"
               />
             </div>
-  
+            <input type="hidden" name="form_type" value="contact" />
+            <input type="hidden" name="subject" value="New Contact Form Submission" />
             <button
               type="submit"
               className="mt-4 p-3 bg-[#FFB81C] text-white rounded-md cursor-pointer hover:bg-[#e6a700] transition"
@@ -75,5 +105,5 @@ const ContactSection = () => {
     );
   };
   
-  export default ContactSection;
+  
   

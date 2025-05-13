@@ -45,9 +45,15 @@ export default function Footer() {
             </a>
           </p>
           <div className="flex flex-row gap-3">
-            <img src={githubLogo} alt="Github" className="w-8 h-8 cursor-pointer" />
-            <img src={twitterLogo} alt="Twitter" className="w-8 h-8 cursor-pointer" />
-            <img src={linkedinLogo} alt="Linkedin" className="w-8 h-8 cursor-pointer" />
+            <a href="https://github.com/TechByDAS" target="_blank" rel="noopener noreferrer">
+              <img src={githubLogo} alt="Github" className="w-8 h-8 cursor-pointer" />
+            </a>
+            <a href="https://x.com/das_tech_" target="_blank" rel="noopener noreferrer">
+              <img src={twitterLogo} alt="Twitter" className="w-8 h-8 cursor-pointer" />
+            </a>
+            <a href="https://www.linkedin.com/company/dastechltd" target="_blank" rel="noopener noreferrer">
+              <img src={linkedinLogo} alt="Linkedin" className="w-8 h-8 cursor-pointer" />
+            </a>
           </div>
         </div>
 

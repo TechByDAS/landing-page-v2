@@ -9,7 +9,7 @@ const Testimonials = () => {
       role: 'CEO, QRMENU',
       avatar: tobiShoksAvatar,
       quote:
-        'We needed a fast, modern product — and DAS delivered. They felt like part of our internal team from day one.',
+        'We needed a fast, modern product and DAS delivered. They felt like part of our internal team from day one.',
     },
     {
       name: 'SARAH JOHNSON',

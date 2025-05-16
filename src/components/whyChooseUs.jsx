@@ -17,12 +17,12 @@ const WhyChooseUsSection = () => {
           {
             icon: fastDeliveryIcon,
             title: 'Fast Delivery',
-            desc: 'Go to market quicker with agile execution that balances speed and quality — no bottlenecks, no delays.',
+            desc: 'Go to market quicker with agile execution that balances speed and quality. No bottlenecks, No delays.',
           },
           {
             icon: scalableTeamIcon,
             title: 'Scalable Team',
-            desc: 'Easily extend your team with vetted developers, designers, and marketers — when and how you need them.',
+            desc: 'Easily extend your team with vetted developers, designers, and marketers, when and how you need them.',
           },
           {
             icon: supportIcon,

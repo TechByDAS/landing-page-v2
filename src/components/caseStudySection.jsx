@@ -1,7 +1,49 @@
 import { useRef } from "react";
 import rightArrow from '../assets/chevron-right.svg';
 import leftArrow from '../assets/chevron-left.svg';
-import myQrImage from '../assets/myQrMenuBackgroundImage.svg'; // Make sure you import the image
+import myQrImage from '../assets/myQRLabelImage.svg'; 
+import kiskasImage from '../assets/kiskasLabelImage.svg';
+import kokayaImage from '../assets/kokayaLabelImage.svg';
+import ourHomeyImage from '../assets/ourhomeyLabelImage.svg';
+import rnnImage from '../assets/rnnLabelImage.svg';
+
+const caseStudies = [
+  {
+    title: "My QR Menu",
+    category: "Hospitality",
+    image: myQrImage,
+    link: "https://myqrmenu.co",
+  },
+
+  {
+    title: "Kiskas",
+    category: "Email Marketing",
+    image: kiskasImage,
+    link: "#",
+  },
+
+  {
+    title: "Kokaya",
+    category: "Dev-Tech",
+    image: kokayaImage,
+    link: "#",
+  },
+
+  {
+    title: "Our Homey",
+    category: "Real estate",
+    image: ourHomeyImage,
+    link: "#",
+  },
+
+  {
+    title: "React Native Nigeria",
+    category: "Tech Community",
+    image: rnnImage,
+    link: "#",
+  },
+
+];
 
 const CaseStudySection = () => {
   const scrollRef = useRef(null);
@@ -46,16 +88,19 @@ const CaseStudySection = () => {
           }
         `}</style>
 
-        {[...Array(5)].map((_, idx) => (
+        {caseStudies.map((study, idx) => (
           <div
             key={idx}
-            className="min-w-[280px] sm:min-w-[320px] h-[220px] bg-cover bg-center rounded-lg flex items-end p-4 text-white cursor-pointer flex-shrink-0"
-            style={{ backgroundImage: `url(${myQrImage})` }}
+            href={study.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="min-w-[280px] sm:min-w-[320px] h-[400px] bg-cover bg-center rounded-lg flex items-end p-4 text-white cursor-pointer flex-shrink-0"
+            style={{ backgroundImage: `url(${study.image})` }}
           >
-            <div>
+            {/* <div>
               <h4 className="font-bold text-lg sm:text-xl">My QR Menu</h4>
               <p className="text-sm">Hospitality</p>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>

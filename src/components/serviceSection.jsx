@@ -2,6 +2,7 @@ import productDesignLogo from '../assets/productDesignServiceLogo.svg';
 import webDevLogo from '../assets/webDevServiceLogo.svg';
 import teamAugLogo from '../assets/teamAugmentationLogo.svg';
 import productStrategyLogo from '../assets/productStrategyLogo.svg';
+import emailLogo from '../assets/emailLogo.svg';
 // You can later replace logo for email setup with a custom one
 
 const ServicesSection = () => {
@@ -19,12 +20,12 @@ const ServicesSection = () => {
           {
             logo: productDesignLogo,
             title: 'Product Design',
-            desc: 'We transform ideas into clean, user-centered designs that enhance usability, engagement, and delight — from initial wireframes to final interfaces.',
+            desc: 'We transform ideas into clean, user-centered designs that enhance usability, engagement, and delight from initial wireframes to final interfaces.',
           },
           {
             logo: webDevLogo,
             title: 'Web Development',
-            desc: 'We build modern, fast, and scalable websites tailored to your business needs — from landing pages to complex web applications.',
+            desc: 'We build modern, fast, and scalable websites tailored to your business needs from landing pages to complex web applications.',
           },
           {
             logo: teamAugLogo,
@@ -37,9 +38,9 @@ const ServicesSection = () => {
             desc: 'We help you define, validate, and prioritize features with a clear roadmap built on user needs, technical feasibility, and business goals.',
           },
           {
-            logo: productStrategyLogo, // Replace this with a dedicated email icon if you add it
+            logo: emailLogo, // Replace this with a dedicated email icon if you add it
             title: 'Professional Email Setup',
-            desc: 'Get a branded email (like you@yourcompany.com) set up for life — no monthly fees, just a one-time setup and you’re good to go.',
+            desc: 'Get a branded email (like you@yourcompany.com) set up for life, no monthly fees, just a one-time setup and you’re good to go.',
           },
         ].map((service, idx) => (
           <div

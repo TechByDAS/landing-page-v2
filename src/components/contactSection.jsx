@@ -36,7 +36,7 @@ export default function ContactSection() {
           </h3>
   
           <p className="text-white text-center max-w-2xl text-base sm:text-lg leading-relaxed">
-            Whether you're launching a new product, upgrading your website, or building your team — we’re here to help. Fill out the form and let’s start the conversation.
+            Whether you're launching a new product, upgrading your website, or building your team, we’re here to help. Fill out the form and let’s start the conversation.
           </p>
   
           <form onSubmit={onSubmit} className="flex flex-col gap-4 w-full max-w-md bg-white p-6 sm:p-10 rounded-[20px] shadow-lg">

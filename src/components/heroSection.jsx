@@ -2,11 +2,11 @@ import heroImage from '../assets/dasHeroImage.svg';
 
 const HeroSection = () => {
     return (
-        <section className="bg-[#D5E4FE40] px-4 py-14 md:px-10 lg:px-[80px] flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
+        <section className="bg-[#D5E4FE40] px-4 py-14 md:px-10 lg:px-[80px] flex flex-col-reverse lg:flex-row items-center lg:items-stretch gap-12 lg:gap-20">
             {/* Left Text Content */}
-            <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col items-center lg:items-start gap-6">
+            <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col justify-center h-full lg:items-start gap-4">
                 <p className="text-sm md:text-base font-normal text-[#0A2540CC]">
-                    Everything you need to launch, scale, and grow — all in one place.
+                    Everything you need to launch, scale, and grow. All in one place.
                 </p>
 
                 <h1 className="font-semibold text-[#0A2540] text-[34px] sm:text-[42px] md:text-[52px] lg:text-[70px] leading-snug md:leading-tight">
@@ -14,11 +14,11 @@ const HeroSection = () => {
                 </h1>
 
                 <p className="font-normal text-[#0A2540CC] text-base sm:text-lg md:text-xl leading-relaxed">
-                    From professional email setup and web hosting to product design, development, marketing, and team hiring — DAS Technology helps you build, launch, and grow with confidence.
+                    From professional email setup and web hosting to product design, development, marketing, and team hiring. DAS Technology helps you build, launch, and grow with confidence.
                 </p>
 
 
-                <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-4 w-full sm:w-auto">
+                <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 w-full sm:w-auto">
                     <a
                         href="#contact"
                         className="bg-[#FFB81C] text-white text-base py-3 px-6 rounded-lg text-center"
@@ -35,7 +35,7 @@ const HeroSection = () => {
             </div>
 
             {/* Right Image */}
-            <div className="w-full lg:w-1/2 flex justify-center">
+            <div className="w-full lg:w-1/2 flex justify-center items-center">
                 <img
                     src={heroImage}
                     alt="Das Hero"
